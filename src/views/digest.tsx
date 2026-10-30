@@ -39,7 +39,7 @@ export function DigestTable({ night }: { night: Night }) {
           </tbody>
         </table>
       )}
-      {badLines > 0 ? <p class="mute">{badLines} lines did not parse</p> : null}
+      {badLines > 0 ? <p class="mute">{badLines} {badLines === 1 ? 'line' : 'lines'} did not parse</p> : null}
     </>
   );
 }
