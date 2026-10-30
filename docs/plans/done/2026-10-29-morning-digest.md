@@ -1,8 +1,9 @@
 ---
 plan: morning-digest
-status: ready
+status: done
 owner: rook
 opened: 2026-10-29
+closed: 2026-10-30
 ---
 
 # Morning digest
@@ -77,3 +78,13 @@ page again with `LANE_MARKER` unset (the banner reads "no marker set") and uploa
 link. Move this plan to `docs/plans/done/` with its issue list.
 
 Done when: the preview link no longer shows the lane marker.
+
+## Issues
+
+- [#1: Run log reader (src/digest/)](https://github.com/chillleader/rig-handover-s01e04/issues/1)
+- [#2: Digest page: GET /digest/:night](https://github.com/chillleader/rig-handover-s01e04/issues/2)
+- [#3: Digest JSON: GET /api/digest/:night](https://github.com/chillleader/rig-handover-s01e04/issues/3)
+- [#4: Status board links each night to its digest](https://github.com/chillleader/rig-handover-s01e04/issues/4)
+- [#5: Route tests for the digest page and JSON](https://github.com/chillleader/rig-handover-s01e04/issues/5)
+- [#6: Preview for review: public HTML copy of /digest/2026-10-28](https://github.com/chillleader/rig-handover-s01e04/issues/6)
+- [#7: Clean up: take the lane marker off the preview, move plan to done](https://github.com/chillleader/rig-handover-s01e04/issues/7)
